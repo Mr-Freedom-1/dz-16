@@ -1,0 +1,244 @@
+@import'../_templates';
+@import'../_variables';
+@import'../_mixes';
+
+@media (min-width: 480px) {
+    *{
+        main{
+            display: initial;
+        }
+        
+        .header-nav-anchor{
+            display: initial;
+        }
+        
+        .header-nav-useful button{
+            display: initial;
+        }
+        
+        .header-achievements{
+            display: initial;
+        }
+        
+        .footer-contacts-messengers{
+            display: initial;
+        } 
+    
+        .footer-contacts-messengers img{
+            display: initial;
+        }
+    
+        .header-nav-useful-tel-burger{
+            display: none;
+        }
+    }
+    
+    header{
+        @include fontType('Roboto', 400, 16px, 130%, $colorBlack);
+        .background{
+            height: 650px;
+            margin-bottom: 150px;
+            .container{
+                max-width: 1180px;
+                padding: 0 30px;
+                position: relative;
+                .header-nav{
+                    &-logo{
+                        p{
+                            font-size: 38px;
+                            line-height: 80%;
+                        }
+                        span{
+                            font-size: 27px;
+                        }
+                    }
+                    &-anchor{
+                        font-family: 'Roboto';
+                        font-size: 16px;
+                        width: 30%;
+                        display: flex;
+                        justify-content: space-between;
+                        a{
+                            line-height: 19px;
+                            color: $colorLightBlack; 
+                            text-decoration: none;
+                            margin: 0 10px;
+                            position: relative;
+                            bottom: 9px;
+                            &:hover{
+                            color: $colorBlue;
+                            }
+                        } 
+                    }
+                    &-useful{
+                        &-tel{
+                            font-family: 'Roboto';
+                            margin-bottom: 15px;
+                            a{
+                                font-size: 16px;
+                                position: relative;
+                                top: 0;
+                                &:hover{
+                                    color: $colorBlue;
+                                }
+                                &::before{
+                                    content: "";
+                                    position: absolute;
+                                    background: url("../img/phone-in-talk-desktop.png");
+                                    width: 24px;
+                                    height: 24px;
+                                    top: -7px;
+                                    left: -30px;
+                                }
+                            }
+                            &-burger{
+                                display: none;
+                            }
+                        }
+                        &-button{
+                            margin-left: 15px;
+                            position: relative;
+                            bottom: 8px;
+                            button{
+                                border: none;
+                                background: none;
+                                font-size: 20px;
+                                &:hover{
+                                    color: $colorBlue;
+                                }
+                                &:last-child{
+                                    font-family: 'Roboto';
+                                }
+                                &:first-child{
+                                    font-family: 'Roboto';
+                                    padding-right: 7px;
+                                    &::after{
+                                        content: "";
+                                        position: absolute;
+                                        width: 1px;
+                                        height: 18px;
+                                        background-color: $colorBlack;
+                                        left: 33px;
+                                        top: 2px; 
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .header-title{
+                    position: relative;
+                    max-width: 500px;
+                    &-text{
+                        text-align: left;
+                        h1{
+                            font-size: 40px;
+                            line-height: 130%;
+                            position: relative;
+                            animation-name: moving-block-1;
+                            animation-duration: 0.5s;
+                            animation-timing-function: linear; 
+                            opacity: 0;
+                            animation-fill-mode: forwards;
+                        }
+                        p{
+                            font-size: 16px;
+                            margin-top: 30px;
+                            position: relative;
+                            animation-name: moving-block-1;
+                            animation-duration: 0.5s;
+                            animation-delay: 0.3s;
+                            animation-timing-function: linear; 
+                            opacity: 0;
+                            animation-fill-mode: forwards;
+                        }
+                    }
+                    &-button{
+                        margin-top: 48px;
+                        position: relative;
+                        animation-name: moving-block-1;
+                        animation-duration: 0.5s;
+                        animation-delay: 0.3s;
+                        animation-timing-function: linear; 
+                        opacity: 0;
+                        animation-fill-mode: forwards;
+                        &-1{
+                            width: 180px;
+                            height: 60px;
+                            background: linear-gradient(97.59deg, #46B1DE 9.8%, #0591CC 95.1%);
+                            box-shadow: 0px 2px 10px #46B1DE;
+                            border-radius: 8px;
+                            font-size: 19px;
+                        }
+                        &-2{
+                            width: 180px;
+                            height: 60px;
+                            font-size: 19px;
+                        }
+                    }
+                    @keyframes moving-block-1{
+                        0%{
+                          bottom: -150px;    
+                        }
+                        100%{
+                          bottom: 0px;
+                          opacity: 1;
+                        }
+                    }
+                }
+                .header-achievements{
+                    max-width: 1000px;
+                    margin: 0 auto;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    margin-top: 65px;
+                    z-index: 2;
+                    position: relative;
+                    animation-name: moving-block-2;
+                    animation-duration: 0.5s;
+                    animation-delay: 0.6s;
+                    animation-timing-function: linear; 
+                    opacity: 0;
+                    animation-fill-mode: forwards;
+                    @keyframes moving-block-2{
+                        0%{
+                          left: -150px;    
+                        }
+                        100%{
+                          left: 0px;
+                          opacity: 1;
+                        }
+                    }
+                    div{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 280px;
+                        height: 120px;
+                        background: #FFFFFF;
+                        border: 1px solid #D8E1E1;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 8px;
+                    }
+                    &-number{
+                        font-size: 65px;
+                        color: $colorBlue;
+                        margin-right: 10px;
+                    }
+                    &-text{
+                        max-width: 140px;
+                        line-height: 120%;
+                    }
+                }
+                .header-img{
+                    position: absolute;
+                    top: 60px;
+                    right: 0;
+                    height: 710px;
+                }
+            }
+        }
+    } 
+}
+

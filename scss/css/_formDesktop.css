@@ -1,0 +1,75 @@
+@media (min-width: 480px) {
+  main .container .form {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 140%;
+    line-height: 19px;
+    color: #1B1D1F;
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    background: white;
+    border: 1px solid #f1cdcd;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 90px;
+  }
+  main .container .form-info-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+  }
+  main .container .form-info-text {
+    margin-bottom: 45px;
+    font-size: 16px;
+  }
+  main .container .form-input form {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .container .form-input-1 {
+    display: flex;
+    align-items: center;
+  }
+  main .container .form-input-1 img {
+    margin-right: 10px;
+    border-right: 1px solid black;
+    padding-right: 5px;
+  }
+  main .container .form-input-1 input {
+    max-width: 240px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 19px;
+    color: rgba(27, 29, 31, 0.51);
+  }
+  main .container .form-input-1 input:focus {
+    border: 2px solid #46B1DE;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+  main .container .form-input button {
+    width: 180px;
+    height: 57px;
+    background: #46B1DE;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 19px;
+    color: white;
+    border: none;
+    font-family: "Roboto";
+  }
+  main .container .form-img {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+  }
+}

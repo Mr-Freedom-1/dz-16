@@ -1,0 +1,15 @@
+@mixin fontType ($fontFamily, $fontWeight, $fontSize, $lineHeight, $color){
+    font-family: $fontFamily;
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: $color; 
+}
+
+@mixin triangle($width, $color){
+    width: 0;
+    height: 0;
+    border-left: $width solid transparent;
+    border-right: $width solid transparent;
+    border-top: ($width*2) solid $color;
+}

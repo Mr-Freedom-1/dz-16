@@ -1,0 +1,147 @@
+@media (min-width: 480px) {
+  footer .container {
+    max-width: 1180px;
+    padding: 0 30px;
+    position: relative;
+  }
+  footer .container .wraper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+  }
+  footer .container .wraper .footer-name {
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  footer .container .wraper .footer-name-logo {
+    margin-bottom: 30px;
+  }
+  footer .container .wraper .footer-name-logo p {
+    font-size: 39px;
+  }
+  footer .container .wraper .footer-name-logo span {
+    font-size: 27px;
+  }
+  footer .container .wraper .footer-name-info-nav a {
+    font-size: 20px;
+  }
+  footer .container .wraper .footer-name-info-nav a:hover {
+    color: white;
+  }
+  footer .container .wraper .footer-name-info-nav button {
+    font-size: 20px;
+  }
+  footer .container .wraper .footer-name-info-nav button:hover {
+    color: white;
+  }
+  footer .container .wraper .footer-name-info-nav button:first-child {
+    padding-right: 10px;
+  }
+  footer .container .wraper .footer-name-info-nav button:first-child::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 18px;
+    background-color: black;
+    left: 38px;
+    top: 2px;
+  }
+  footer .container .wraper .footer-name-info-nav-button {
+    position: relative;
+  }
+  footer .container .wraper .footer-name-info-schedule-1 {
+    font-size: 20px;
+    margin-bottom: 7px;
+  }
+  footer .container .wraper .footer-name-info-schedule-2 {
+    font-size: 20px;
+    line-height: 135%;
+  }
+  footer .container .wraper .footer-contacts {
+    max-width: 500px;
+  }
+  footer .container .wraper .footer-contacts-title span {
+    font-size: 34px;
+  }
+  footer .container .wraper .footer-contacts-name {
+    font-size: 20px;
+  }
+  footer .container .wraper .footer-contacts-address {
+    font-size: 20px;
+  }
+  footer .container .wraper .footer-contacts-1 a {
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+  }
+  footer .container .wraper .footer-contacts-1 a::before {
+    content: "";
+    background: url("../img/phone-telephone-desktop.png");
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: -40px;
+  }
+  footer .container .wraper .footer-contacts-1 a:hover::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    top: 27px;
+    right: 0;
+  }
+  footer .container .wraper .footer-contacts-3 a {
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+  }
+  footer .container .wraper .footer-contacts-3 a::before {
+    content: "";
+    background: url("../img/instagram-desktop.png");
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: -40px;
+  }
+  footer .container .wraper .footer-contacts-3 a:hover::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    top: 25px;
+    right: 0;
+  }
+  footer .container .wraper .footer-contacts-4 a {
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+  }
+  footer .container .wraper .footer-contacts-4 a::before {
+    content: "";
+    background: url("../img/Email-desktop.png");
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -40px;
+  }
+  footer .container .wraper .footer-contacts-4 a:hover::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    top: 25px;
+    right: 0;
+  }
+  footer .container .wraper .footer-contacts-messengers {
+    position: relative;
+    right: 12px;
+    margin-bottom: 7px;
+  }
+  footer .container .wraper .footer-contacts-copiright {
+    font-size: 13px;
+    padding-bottom: 15px;
+  }
+}

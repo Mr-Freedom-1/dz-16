@@ -1,0 +1,229 @@
+@media (min-width: 480px) {
+  * main {
+    display: initial;
+  }
+  * .header-nav-anchor {
+    display: initial;
+  }
+  * .header-nav-useful button {
+    display: initial;
+  }
+  * .header-achievements {
+    display: initial;
+  }
+  * .footer-contacts-messengers {
+    display: initial;
+  }
+  * .footer-contacts-messengers img {
+    display: initial;
+  }
+  * .header-nav-useful-tel-burger {
+    display: none;
+  }
+
+  header {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: black;
+  }
+  header .background {
+    height: 650px;
+    margin-bottom: 150px;
+  }
+  header .background .container {
+    max-width: 1180px;
+    padding: 0 30px;
+    position: relative;
+  }
+  header .background .container .header-nav-logo p {
+    font-size: 38px;
+    line-height: 80%;
+  }
+  header .background .container .header-nav-logo span {
+    font-size: 27px;
+  }
+  header .background .container .header-nav-anchor {
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .background .container .header-nav-anchor a {
+    line-height: 19px;
+    color: #1B1D1F;
+    text-decoration: none;
+    margin: 0 10px;
+    position: relative;
+    bottom: 9px;
+  }
+  header .background .container .header-nav-anchor a:hover {
+    color: #46B1DE;
+  }
+  header .background .container .header-nav-useful-tel {
+    font-family: "Roboto";
+    margin-bottom: 15px;
+  }
+  header .background .container .header-nav-useful-tel a {
+    font-size: 16px;
+    position: relative;
+    top: 0;
+  }
+  header .background .container .header-nav-useful-tel a:hover {
+    color: #46B1DE;
+  }
+  header .background .container .header-nav-useful-tel a::before {
+    content: "";
+    position: absolute;
+    background: url("../img/phone-in-talk-desktop.png");
+    width: 24px;
+    height: 24px;
+    top: -7px;
+    left: -30px;
+  }
+  header .background .container .header-nav-useful-tel-burger {
+    display: none;
+  }
+  header .background .container .header-nav-useful-button {
+    margin-left: 15px;
+    position: relative;
+    bottom: 8px;
+  }
+  header .background .container .header-nav-useful-button button {
+    border: none;
+    background: none;
+    font-size: 20px;
+  }
+  header .background .container .header-nav-useful-button button:hover {
+    color: #46B1DE;
+  }
+  header .background .container .header-nav-useful-button button:last-child {
+    font-family: "Roboto";
+  }
+  header .background .container .header-nav-useful-button button:first-child {
+    font-family: "Roboto";
+    padding-right: 7px;
+  }
+  header .background .container .header-nav-useful-button button:first-child::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 18px;
+    background-color: black;
+    left: 33px;
+    top: 2px;
+  }
+  header .background .container .header-title {
+    position: relative;
+    max-width: 500px;
+  }
+  header .background .container .header-title-text {
+    text-align: left;
+  }
+  header .background .container .header-title-text h1 {
+    font-size: 40px;
+    line-height: 130%;
+    position: relative;
+    animation-name: moving-block-1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  header .background .container .header-title-text p {
+    font-size: 16px;
+    margin-top: 30px;
+    position: relative;
+    animation-name: moving-block-1;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-timing-function: linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  header .background .container .header-title-button {
+    margin-top: 48px;
+    position: relative;
+    animation-name: moving-block-1;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-timing-function: linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  header .background .container .header-title-button-1 {
+    width: 180px;
+    height: 60px;
+    background: linear-gradient(97.59deg, #46B1DE 9.8%, #0591CC 95.1%);
+    box-shadow: 0px 2px 10px #46B1DE;
+    border-radius: 8px;
+    font-size: 19px;
+  }
+  header .background .container .header-title-button-2 {
+    width: 180px;
+    height: 60px;
+    font-size: 19px;
+  }
+  @keyframes moving-block-1 {
+    0% {
+      bottom: -150px;
+    }
+    100% {
+      bottom: 0px;
+      opacity: 1;
+    }
+  }
+  header .background .container .header-achievements {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 65px;
+    z-index: 2;
+    position: relative;
+    animation-name: moving-block-2;
+    animation-duration: 0.5s;
+    animation-delay: 0.6s;
+    animation-timing-function: linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  @keyframes moving-block-2 {
+    0% {
+      left: -150px;
+    }
+    100% {
+      left: 0px;
+      opacity: 1;
+    }
+  }
+  header .background .container .header-achievements div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #D8E1E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+  }
+  header .background .container .header-achievements-number {
+    font-size: 65px;
+    color: #46B1DE;
+    margin-right: 10px;
+  }
+  header .background .container .header-achievements-text {
+    max-width: 140px;
+    line-height: 120%;
+  }
+  header .background .container .header-img {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    height: 710px;
+  }
+}

@@ -1,0 +1,55 @@
+@import'../_templates';
+@import'../_variables';
+@import'../_mixes';
+
+@media (max-width: 992px) {
+    .header-nav-useful-tel-burger{
+        display: initial;
+    }
+
+    .header-nav-anchor{
+        a{
+            display: none;
+        }
+    }
+
+    .header-nav-useful-tel a{
+        top: 10px;
+    }
+
+    .header-achievements{
+        flex-direction: column;
+    }
+
+    .choose-text{
+        margin-top: 300px;
+    }
+
+    .form-img img:last-child{
+        display: none;
+    }
+
+    .services-circle-center{
+        display: none;
+    }
+
+    .services-circle{
+        justify-content: space-between;
+    }
+
+    .services-circle-left div{
+        position: static;
+    }
+
+    .services-circle-right div{
+        position: static;
+    }
+
+    .header-nav-useful-button{
+        display: none;
+    }
+
+    .header-title-img{
+        margin-top: 13px;
+    }
+}

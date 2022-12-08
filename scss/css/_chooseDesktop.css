@@ -1,0 +1,65 @@
+@media (min-width: 480px) {
+  main .container .choose {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #1B1D1F;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  main .container .choose-text {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  main .container .choose-text h2 {
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  main .container .choose-text span {
+    font-weight: 600;
+    color: #46B1DE;
+  }
+  main .container .choose-text p {
+    line-height: 140%;
+  }
+  main .container .choose-blocks {
+    display: flex;
+    max-width: 1020px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #A1C7D4;
+    border-radius: 12px;
+    padding: 20px 20px 5px 20px;
+  }
+  main .container .choose-block {
+    max-width: 300px;
+    background: white;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  main .container .choose-block-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  main .container .choose-block-title-number {
+    font-size: 40px;
+    line-height: 47px;
+    color: #46B1DE;
+    margin-right: 7px;
+  }
+  main .container .choose-block-title-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #46B1DE;
+  }
+  main .container .choose-block-text {
+    line-height: 19px;
+  }
+}
